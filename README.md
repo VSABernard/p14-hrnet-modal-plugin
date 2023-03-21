@@ -12,7 +12,6 @@ This is a simple and reutilisable React component fullscreen modal validate, dev
 To use this component, you need : 
 * A text editor like : [VSCode](https://code.visualstudio.com/)
 * [NodeJS > v.16](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-* [Git](https://git-scm.com/)
 
 ## **_Installation_**
 
@@ -26,7 +25,7 @@ $ yarn add p14-modal-validate-plugin
 ### **_Import module_**
 
 ```diff
-import ModalValidate from 'p14-hrnet-modal-validate-plugin/dist/component/ModalValidate'
+import ModalValidate from 'p14-hrnet-modal-validate-plugin'
 ```
 
 ### **_Render your modal into your component_**
