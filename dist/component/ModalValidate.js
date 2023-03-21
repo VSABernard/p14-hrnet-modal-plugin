@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 exports["default"] = void 0;
 var _react = _interopRequireDefault(require("react"));
 require("../component/ModalValidate.css");
-var Modal = function Modal(props) {
+var ModalValidate = function ModalValidate(props) {
   if (!props.show) {
     return null;
   }
@@ -22,5 +22,5 @@ var Modal = function Modal(props) {
     submitting: "true"
   }, "X"));
 };
-var _default = Modal;
+var _default = ModalValidate;
 exports["default"] = _default;

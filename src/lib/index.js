@@ -1,3 +1,3 @@
-import Modal from "./component/ModalValidate"
+import ModalValidate from "./component/ModalValidate"
 
-export default Modal
+export default ModalValidate
