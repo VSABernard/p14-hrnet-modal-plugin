@@ -17,8 +17,8 @@ To use this component, you need :
 ## **_Installation_**
 
 ```diff
-$ npm install p14-hrnet-modal-validate-plugin
-$ yarn add p14-hrnet-modal-validate-plugin
+$ npm install p14-modal-validate-plugin
+$ yarn add p14-modal-validate-plugin
 ```
 
 ## **_How the plugin works_**

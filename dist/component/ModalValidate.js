@@ -16,7 +16,7 @@ var ModalValidate = function ModalValidate(props) {
     onClick: props.onClose
   }, /*#__PURE__*/_react["default"].createElement("div", {
     className: "modalBody"
-  }, "Employee have been created !"), /*#__PURE__*/_react["default"].createElement("div", {
+  }, props.message), /*#__PURE__*/_react["default"].createElement("div", {
     className: "closeButton",
     onClick: props.onClose,
     submitting: "true"
