@@ -18,6 +18,7 @@ To use this component, you need :
 ```diff
 $ npm install p14-modal-validate-plugin
 ```
+ou
 ```diff
 $ yarn add p14-modal-validate-plugin
 ```
