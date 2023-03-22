@@ -17,6 +17,8 @@ To use this component, you need :
 
 ```diff
 $ npm install p14-modal-validate-plugin
+```
+```diff
 $ yarn add p14-modal-validate-plugin
 ```
 
@@ -25,7 +27,7 @@ $ yarn add p14-modal-validate-plugin
 ### **_Import module_**
 
 ```diff
-import ModalValidate from 'p14-hrnet-modal-validate-plugin'
+import ModalValidate from 'p14-modal-validate-plugin'
 ```
 
 ### **_Render your modal into your component_**
@@ -33,17 +35,21 @@ import ModalValidate from 'p14-hrnet-modal-validate-plugin'
 ```diff
 return (  
   <>
-    </ModalValidate>
+    <ModalValidate />
   <>
 )
 ```
 
 ### **_Props_**
-This component needs three kinds of props :
+This component uses three kinds of props :
 * **show**  : Boolean ▶️ manage the modal's display
 * **onClose** : Function ▶️ handle the close's event
 * **message** : String ▶️ display the alert message
 
+Exemple : 
+```diff
+  <ModalValidate show={true}/>
+```
 ## **_Compatibility_**
 
 This component was created with the last version of React (v18.2.0).
