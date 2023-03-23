@@ -49,10 +49,13 @@ This component uses three kinds of props :
 
 Exemple : 
 ```diff
-  <ModalValidate show={true}/>
+  < ModalValidate onClose={() => {
+      setShow(false)}}  
+      show={ show } message={ 'Your message here !' }/>
 ```
 ## **_Compatibility_**
 
 This component was created with the last version of React (v18.2.0).
 
 🤓 If you want to know more about this plugin, feel free to contact me !
+
